@@ -1,0 +1,33 @@
+.name
+{
+    color: red;
+}
+button
+{
+    background-color: green;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 2s; 
+    /* its for creating a transition during hover */
+}
+button:hover{
+    background-color: rgb(10, 109, 223);
+}
+.box
+{
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    /* it is wrt x axis */
+    /* height: 100vh;
+    it will be 100% of the viewing screen height*/
+    align-items: center;
+    gap: 100px;
+    /* wrt to y axis */
+}

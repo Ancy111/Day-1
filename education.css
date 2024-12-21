@@ -1,0 +1,49 @@
+.topnav{
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: flex-end;
+}
+
+a{
+    color: rgb(19, 20, 21);
+    padding: 5px;
+}
+
+.container {
+width: 80%;
+margin: 20px auto;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.box {
+background-color: #ffffff;
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 20px;
+transition: 1s;
+}
+
+.box h2 {
+margin-top: 0;
+color: #651f06;
+}
+
+.box h3 {
+    margin-top: 0;
+    color: #a51f08;
+    }
+
+.box p {
+color: #262121;
+line-height: 1.6;
+}
+
+.box:hover {
+    background-color:rgb(255, 5, 9)
+}
